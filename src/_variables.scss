@@ -1,4 +1,15 @@
-// Aquí puedes personalizar las variables de Bootstrap
+// _variables.scss
+
+// Colores principales
 $primary: #3498db;
-$secondary: rgba(255, 255, 255, 0.);
-$hfbackground: rgba(0,0,0,0.5);
+$secondary: rgba(255, 255, 255, 0.5); // Ajusta este valor si es necesario
+
+// Colores para el texto
+$text-light: #ffffff; // Texto blanco para fondos oscuros
+$text-dark: #000000;  // Texto negro para fondos claros
+
+// Colores de fondo
+$header-footer-background: rgba(0, 0, 0, 0.05); // Negro con opacidad mínima
+
+// Otros colores
+$hfbackground: rgba(0, 0, 0, 0.5);

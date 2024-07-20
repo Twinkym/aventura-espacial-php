@@ -1,1 +1,27 @@
-// Configurar los mixins en este archvio.
+// _mixins.scss
+
+// Mixin para clearfix
+@mixin clearfix() {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    
+    &:after {
+        clear: both;
+    }
+}
+
+// Mixin para media queries
+@mixin media-query($breakpoint) {
+    @if $breakpoint == mobile {
+        @media (max-width: 767px) { @content; }
+    }
+    @else if $breakpoint == tablet {
+        @media (min-width: 768px) and (max-width: 991px) { @content; }
+    }
+    @else if $breakpoint == desktop {
+        @media (min-width: 992px) { @content; }
+    }
+}
