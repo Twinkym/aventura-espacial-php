@@ -2,4 +2,8 @@
 
 namespace App\Models;
 
-class 
+class ConectorDB {
+    public function __construct() {
+      
+    }
+} 
