@@ -1,0 +1,13 @@
+{
+    "name": "aventura-espacial-php",
+    "version": "1.0.0",
+    "description": "Juego de aventura espacial para enseñar programación con PHP.",
+    "main": "index.php",
+    "scripts": {
+        "build-css": "sass --watch src/scss:public/css"
+    },
+    "dependencies": {
+        "bootstrap": "^5.3.3",
+        "sass": "^1.35.1"
+    }
+}
